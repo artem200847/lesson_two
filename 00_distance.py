@@ -34,9 +34,6 @@ distances['London'] = {}
 distances['London']['Moscow'] = moscow_london
 distances['London']['Paris'] = paris_london
 
-print('Distance from Moscow:')
-print(distances['Moscow'])
-print('Distance from London:')
-print(distances['London'])
-print('Distance from Paris:')
-print(distances['Paris'])
+print('Distance from Moscow to:', distances['Moscow'])
+print('Distance from London to:', distances['London'])
+print('Distance from Paris to:', distances['Paris'])
